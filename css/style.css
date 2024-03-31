@@ -41,3 +41,36 @@ ul.nav {
 .navItem.selected{
     color:var(--Secondary--dark);
 }
+
+section.hero {
+    background: var(--Primary-gradient);
+}
+
+.heroContainer {
+    margin: auto;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroImage {
+    width:300px;
+    padding: 40px;
+}
+
+.heroContent{
+    width: 647px;
+}
+
+.heroTitle{
+    font-size: var(--font-size-h1);
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.heroText{
+    margin: 0;
+}
