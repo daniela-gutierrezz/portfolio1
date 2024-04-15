@@ -244,3 +244,33 @@ margin-top: 0;
         padding: 20px 0;
     }
 }
+
+.mnavItem {
+    display: block;
+}
+
+.mobilMenu {
+    position: relative;
+}
+
+.mobileNav {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.mobileNav {
+    position: absolute;
+    right: -20px;
+    top: 30px;
+    background-color: white;
+    width: 100w;
+}
+
+.mNavItem {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--Primary-extra-light);
+    color: var(--Primary);
+}
+
