@@ -263,7 +263,8 @@ margin-top: 0;
     right: -20px;
     top: 30px;
     background-color: white;
-    width: 100w;
+    width: 100vw;
+    display: none;
 }
 
 .mNavItem {
@@ -272,5 +273,10 @@ margin-top: 0;
     text-decoration: none;
     border-bottom: 1px solid var(--Primary-extra-light);
     color: var(--Primary);
+}
+
+.mNavItem.selected {
+    font-weight: bold;
+    color: var(--Secondary--dark);
 }
 

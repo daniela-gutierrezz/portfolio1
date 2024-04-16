@@ -68,6 +68,6 @@
 
 @media all and (max-width:576px){
     :root{
-        --container-width: calc(100%-40px);
+        --container-width: calc(100% - 40px);
     }
 }
